@@ -1,0 +1,67 @@
+.img{
+	width: 220px;
+	height: 120px;
+}
+
+body {<style>
+
+font-family: arial;
+font-size: 20px;
+
+	</style>
+}
+
+#rect {
+  Border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+#popo{  Border-radius: 20px; 
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius:0px;
+   border-top-right-radius: 0px;
+  background: #023047;
+  padding: 15px;
+  width: 200px;
+  height: 150px;
+  color:white
+ 
+}
+
+
+
+.leftb {
+	  position: relative;
+  left: 650px;
+  top: -27px;
+}
+
+.ro-img {
+	border-radius: 50%;
+	width:150px;
+	height:150px;
+	
+}
+.centerp { 
+  text-align: center;
+}
+
+
+.column {
+  float: left;
+  width: 32.1%;
+  padding: 5px;
+  position: relative;
+  left: -12px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
